@@ -1,2 +1,5 @@
 # Model that looks at the key rate difference when using a non-ideal optic that has polarisation dependent performance.
 
+The [model](https://github.com/alexanderpickston/polarisation-error/blob/master/model_polarisation-error.ipynb) will take you through a BB84 key rate calculation where there there is a non-ideal set of states being used. We are looking at the effects of a non-ideal optic that introduces depolarising errors thanks to polarisation dependence. For example, a dichroic mirror that will reflect light of a certain wavelength with different probabilities (depending on the incident polarisation) will introduce depolarising errors which reduce the key rate.
+
+Using the functions outlined in [Waks et al_2002_Security aspects of quantum key distribution with sub-Poisson light](https://link.aps.org/doi/10.1103/PhysRevA.66.042315).
